@@ -1,0 +1,20 @@
+<Scene>
+    <GameObject texture="room" rotation="0">
+        <Rect x="0" y="0" w="768" h="768" />
+    </GameObject>
+    <GameObject texture="table" rotation="0">
+        <Rect x="350" y="225" w="364" h="228" />
+    </GameObject>
+    <GameObject texture="cabinet" rotation="90">
+        <Rect x="70" y="210" w="100" h="132" />
+    </GameObject>
+    <GameObject texture="campfire" rotation="90">
+        <Rect x="140" y="580" w="124" h="108" />
+    </GameObject>
+    <GameObject texture="stool" rotation="90">
+        <Rect x="195" y="300" w="116" h="104" />
+    </GameObject>
+    <GameObject texture="stool" rotation="270">
+        <Rect x="475" y="455" w="116" h="104" />
+    </GameObject>
+</Scene>

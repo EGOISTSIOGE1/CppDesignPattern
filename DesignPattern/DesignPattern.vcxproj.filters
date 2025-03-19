@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{3260177b-01ac-4128-95f5-7b6f3ccfe08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{e296f573-a2d4-44b9-b60d-18f22841f838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns">
+      <UniqueIdentifier>{c83ea01f-5fb9-455e-935e-1ff45c610ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns\3.behavioral">
+      <UniqueIdentifier>{2b526744-919a-4fb6-9781-1533275dba2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns\1.creational">
+      <UniqueIdentifier>{29717ce6-5d58-4f1a-8c9a-adc2b088fc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns\2.structural">
+      <UniqueIdentifier>{f1b87cda-6ffa-4658-9f9a-ac207497e9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\imgui">
+      <UniqueIdentifier>{c0511e3e-620e-41cf-a8de-32a2093114ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DesignPattern.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_manager.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="example.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="example_manager.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="2.abstract_factory.h">
+      <Filter>patterns\1.creational</Filter>
+    </ClInclude>
+    <ClInclude Include="3.builder.h">
+      <Filter>patterns\1.creational</Filter>
+    </ClInclude>
+    <ClInclude Include="1.factory_method.h">
+      <Filter>patterns\1.creational</Filter>
+    </ClInclude>
+    <ClInclude Include="4.prototype.h">
+      <Filter>patterns\1.creational</Filter>
+    </ClInclude>
+    <ClInclude Include="5.singleton.h">
+      <Filter>patterns\1.creational</Filter>
+    </ClInclude>
+    <ClInclude Include="1.adapter.h">
+      <Filter>patterns\2.structural</Filter>
+    </ClInclude>
+    <ClInclude Include="font_wrapper.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="2.bridge.h">
+      <Filter>patterns\2.structural</Filter>
+    </ClInclude>
+    <ClInclude Include="3.composite.h">
+      <Filter>patterns\2.structural</Filter>
+    </ClInclude>
+    <ClInclude Include="4.decorator.h">
+      <Filter>patterns\2.structural</Filter>
+    </ClInclude>
+    <ClInclude Include="5.facade.h">
+      <Filter>patterns\2.structural</Filter>
+    </ClInclude>
+    <ClInclude Include="6.flyweight.h">
+      <Filter>patterns\2.structural</Filter>
+    </ClInclude>
+    <ClInclude Include="7.proxy.h">
+      <Filter>patterns\2.structural</Filter>
+    </ClInclude>
+    <ClInclude Include="1.chain_of_responsibility.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="2.command.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="3.iterator.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="4.mediator.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="5.memento.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="6.observer.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="7.state.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="8.strategy.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="9.template_method.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="10.visitor.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="11.interpreter.h">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="example_manager.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="2.abstract_factory.cpp">
+      <Filter>patterns\1.creational</Filter>
+    </ClCompile>
+    <ClCompile Include="3.builder.cpp">
+      <Filter>patterns\1.creational</Filter>
+    </ClCompile>
+    <ClCompile Include="1.factory_method.cpp">
+      <Filter>patterns\1.creational</Filter>
+    </ClCompile>
+    <ClCompile Include="4.prototype.cpp">
+      <Filter>patterns\1.creational</Filter>
+    </ClCompile>
+    <ClCompile Include="5.singleton.cpp">
+      <Filter>patterns\1.creational</Filter>
+    </ClCompile>
+    <ClCompile Include="1.adapter.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="2.bridge.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_sdl.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_sdlrenderer.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_stdlib.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_tables.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3.composite.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="4.decorator.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="5.facade.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="6.flyweight.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="7.proxy.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="1.chain_of_responsibility.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="2.command.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="3.iterator.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="4.mediator.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="5.memento.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="6.observer.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="7.state.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="8.strategy.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="9.template_method.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="10.visitor.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="11.interpreter.cpp">
+      <Filter>patterns\3.behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\TextEditor.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="2.bridge_raylib_impl.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+    <ClCompile Include="2.bridge_easyx_impl.cpp">
+      <Filter>patterns\2.structural</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

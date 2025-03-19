@@ -1,0 +1,12 @@
+{
+	"player":	{
+		"position":	{
+			"x":	192.38479614257812,
+			"y":	286.38479614257812
+		},
+		"facing_right":	false
+	},
+	"switch":	{
+		"opened":	true
+	}
+}
